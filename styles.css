@@ -1,8 +1,23 @@
+/* MAIN ELEMENTS */
+
+li {
+  list-style: none;
+}
+
+/* CLASSES */
 .background-image {
-    background-image: url(./images/pic_1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-  }
+  background-image: url(./images/pic_1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 
+.nav-link {
+  color: #FFF;
+  text-decoration: none;
+}
 
+/* .navbar {
+  background: rgba(0, 0, 0, 0.5);
+  transition: background-color 0.5s ease 0s;
+} */
