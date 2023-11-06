@@ -23,13 +23,10 @@
 	<!--header aka nav-menu & logo-->
 	<div class="background-image">
 		<header>
-			<div class="container p-2">
+			<div class="container-fluid" id="nav-container">
 				<div class="pos-f-t"> <!-- position fixed top -->
 				<div class="collapse" id="navbarToggleExternalContent">
 				<div class="bg-transparent p-4">
-					<span>
-					<h4 class="text-white text-center">Collapsed content</h4>
-					</span>
 					<li class="nav-item">
 					<a class="nav-link" href="#">COURSES</a>
 					<a class="nav-link" href="#">PRICING</a>
@@ -37,28 +34,38 @@
 					</li>
 				</div>
 				</div>
-				<nav class="navbar navbar-dark bg-transparent">
+				<nav class="navbar navbar-dark bg-transparent navbar-expand-sm">
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
+				<span class="navbar-toggler-icon mt-4"></span>
 				</button>
-				<a class="navbar-brand" style="margin: 0; float: none; text-align:center" href="#">
-					<img src="images/smile_off_small2.png" alt="logo">
-					<img src="images/SmileSchool_small.png" alt="logo">
+				<a class="d-flex flex-column" id="navbar-brand" style="margin-top: 2rem; float: none; text-align:center" href="#">
+					<div>
+						<img src="images/smile_off_small2.png" alt="logo">
+					</div>
+					<div>					
+						<img src="images/SmileSchool_small.png" alt="logo">
+					</div>
 				</a>
 				</nav>
 				</div>
 			</div>
 		</header>
 		<!--End Task 1-->
-		<section>
-			<div>
-				<div>
-					<p>Get schooled</p>
+		<section class="text-white" id="banner-section">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<h1 class="my-9" style="font-size: 3rem" id="page-title">Get schooled</h1>
+					</div>
 				</div>
-			<div>
-				<p>SMILES</p>
-				<p>GRIN</p> 
-				<p>LAUGH</p>
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-4 d-flex justify-between">
+						<p class="col-4 mt-4">SMILES</p>
+						<p class="col-4 mt-4">GRIN</p>
+						<p class="col-4 mt-4">LAUGH</p>			
+					</div>
+				</div>
 			</div>
 					<button type="button">REGISTER FOR FREE</button>
 			</div>

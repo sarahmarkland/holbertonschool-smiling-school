@@ -1,3 +1,65 @@
+/* FONT FACES */
+
+@font-face {
+  font-family: SourceSansPro-Regular;
+  src: url(./images/SourceSansPro-Regular.otf);
+}
+
+@font-face {
+  font-family: SourceSansPro-Black;
+  src: url(./images/SourceSansPro-Black.otf);
+}
+
+@font-face {
+  font-family: SourceSansPro-BlackIt;
+  src: url(./images/SourceSansPro-BlackIt.otf);
+}
+
+@font-face {
+  font-family: SourceSansPro-Bold;
+  src: url(./images/SourceSansPro-Bold.otf);
+}
+
+@font-face {
+  font-family: SourceSansPro-BoldIt;
+  src: url(./images/SourceSansPro-BoldIt.otf);
+}
+
+@font-face {
+  font-family: SourceSansPro-ExtraLight;
+  src: url(./images/SourceSansPro-ExtraLight.otf);
+}
+
+@font-face {
+  font-family: SourceSansPro-ExtraLightlt;
+  src: url(./images/SourceSansPro-ExtraLightIt.otf);
+}
+
+@font-face {
+  font-family: SourceSansPro-It;
+  src: url(./images/SourceSansPro-It.otf);
+}
+
+@font-face {
+  font-family: SourceSansPro-Light;
+  src: url(./images/SourceSansPro-Light.otf);
+}
+
+@font-face {
+  font-family: SourceSansPro-Lightlt;
+  src: url(./images/SourceSansPro-LightIt.otf);
+}
+
+@font-face {
+  font-family: SourceSansPro-Semibold;
+  src: url(./images/SourceSansPro-Semibold.otf);
+}
+
+@font-face {
+  font-family: SourceSansPro-Semiboldlt;
+  src: url(./images/SourceSansPro-SemiboldIt.otf);
+}
+
 /* MAIN ELEMENTS */
 
 li {
@@ -9,7 +71,7 @@ li {
   background-image: url(./images/pic_1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: center center;
 }
 
 .nav-link {
@@ -20,8 +82,31 @@ li {
 .navbar {
   position: relative;
 }
-.navbar-brand {
+
+.navbar-toggler {
+  border: none;
+}
+
+#navbar-brand {
   position: absolute;
   left: 50%;
   transform:translateX(-50%)
+}
+
+#nav-container {
+  margin-top: 40px;
+}
+
+#page-title {
+  font-family: SourceSansPro-Bold;
+  margin-top: 10rem;
+}
+
+#banner-section {
+  font-family: SourceSansPro-Regular;
+}
+
+@media (min-width: 768px) {
+  /* styles to apply when viewport width is tablet or larger screen */
+
 }
