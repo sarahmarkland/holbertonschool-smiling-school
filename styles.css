@@ -93,10 +93,6 @@ li {
   transform:translateX(-50%)
 }
 
-#nav-container {
-  margin-top: 40px;
-}
-
 #page-title {
   font-family: SourceSansPro-Bold;
   margin-top: 10rem;
@@ -104,9 +100,34 @@ li {
 
 #banner-section {
   font-family: SourceSansPro-Regular;
+
+}
+
+.card1 img {
+  /* display: flex; */
+
+  width: 150px;
 }
 
 @media (min-width: 768px) {
   /* styles to apply when viewport width is tablet or larger screen */
 
+  #page-title {
+    font-size: 90px !important;
+  }
+
+  /* nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+  } */
+
+  /* .navbar-toggler {
+    display: none;
+  } */
+
+  /* .navbar-words {
+    display: flex;
+    justify-content: space-between;
+  } */
 }
