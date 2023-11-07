@@ -77,14 +77,11 @@ li {
 
 /* CLASSES */
 
-.purple {
-  color: #C271FF;
-}
 .background-image {
   background-color: #071629;
   background-image: url(./images/pic_1.jpg);
   background-repeat: no-repeat;
-  /* background-size: cover; */
+  background-size: cover;
   background-position: center;
   width: 100vw;
 }
@@ -147,7 +144,7 @@ li {
 }
 
 .purp-carousel {
-  background-color: ;
+  background-color: #C271FF;
 }
 
 @media (min-width: 768px) {
