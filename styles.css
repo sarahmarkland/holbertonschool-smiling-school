@@ -71,14 +71,22 @@ li {
   list-style: none;
 }
 
+.banner-section {
+  height: 1386px;
+}
+
 /* CLASSES */
+
+.purple {
+  color: #C271FF;
+}
 .background-image {
+  background-color: #071629;
   background-image: url(./images/pic_1.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  height: 100vh;
-  /* background-color: #071629; */
+  /* background-size: cover; */
+  background-position: center;
+  width: 100vw;
 }
 
 .nav-link {
@@ -119,13 +127,12 @@ li {
 }
 
 .pros {
-  margin: 8rem 0;
+  /* margin: 8rem 0; */
 }
-
 
 .card1 img {
   width: 150px;
-  margin: 1.5rem;
+  margin: 1rem;
 }
 
 .card1 h3 {
@@ -137,6 +144,10 @@ li {
   font-style: italic;
   font-size: 16px;
   font-family: SourceSansPro-Light;
+}
+
+.purp-carousel {
+  background-color: ;
 }
 
 @media (min-width: 768px) {
@@ -154,29 +165,4 @@ li {
     display: flex;
     flex-direction: row;
   }
-    
-    /* display: flex !important;
-    flex-direction: row !important;
-    position: auto;
-    left: 5%; */
-  }
-
-  /* .pros {
-    background-color: none;
-  } */
-
-  /* nav {
-    display: flex;
-    justify-content: space-between;
-    width: 100vw;
-  } */
-
-  /* .navbar-toggler {
-    display: none;
-  } */
-
-  /* .navbar-words {
-    display: flex;
-    justify-content: space-between;
-  } */
 }
