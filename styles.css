@@ -156,6 +156,14 @@ footer {
   background-color: #C271FF;
 }
 
+.videos1 img {
+  border-radius: 50%;
+}
+
+.purple-quote {
+  text-align: start !important;
+}
+
 @media (min-width: 768px) {
   /* styles to apply when viewport width is tablet or larger screen */
 
