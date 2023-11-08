@@ -164,6 +164,10 @@ footer {
   text-align: start !important;
 }
 
+.purp-avatar img {
+  /* width: 210px; */
+}
+
 @media (min-width: 768px) {
   /* styles to apply when viewport width is tablet or larger screen */
 
