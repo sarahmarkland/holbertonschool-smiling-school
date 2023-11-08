@@ -62,6 +62,10 @@
 
 /* MAIN ELEMENTS */
 
+:root {
+  --color-dark: #071629;
+}
+
 body {
   width: 100vw;
   height: 100vh;
@@ -73,6 +77,11 @@ li {
 
 .banner-section {
   height: 1386px;
+}
+
+footer {
+  background-color: #071629;
+  margin: auto;
 }
 
 /* CLASSES */
