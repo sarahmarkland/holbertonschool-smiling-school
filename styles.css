@@ -156,6 +156,10 @@ footer {
   background-color: #C271FF;
 }
 
+.carousel-inner {
+  max-width: 375px;
+}
+
 .videos1 img {
   border-radius: 50%;
 }
@@ -182,5 +186,10 @@ footer {
   .nav-brand-md {
     display: flex;
     flex-direction: row;
+  }
+
+  .carousel-inner {
+    display: flex;
+    max-width: 850px;
   }
 }
