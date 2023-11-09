@@ -249,6 +249,11 @@ footer {
   font-size: 14px;
 }
 
+.FAQ {
+  font-family: SourceSansPro-Regular;
+  color: #071629
+}
+
 .member-card {
   max-width: 257px !important;
   
