@@ -96,7 +96,29 @@ footer {
   max-height: 335px !important;
 }
 
-/* CLASSES */
+.custom-card {
+  font-family: SourceSansPro-Regular;
+  color: #071629;
+}
+
+.custom-card-text h3 {
+  font-family: SourceSansPro-Bold;
+  font-size: 18px;
+}
+
+.custom-card-text h2 {
+  font-size: 16px;
+}
+
+.tinypic img {
+  border-radius: 50%;
+}
+
+/* CUSTOM CLASSES */
+
+.purple-text {
+  color: #C271FF;
+}
 
 .background-image {
   background-color: #071629;
