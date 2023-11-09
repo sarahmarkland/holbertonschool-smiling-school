@@ -129,6 +129,14 @@ footer {
   width: 100vw;
 }
 
+.pricing-image {
+  background-image: url(./images/pic_2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+}
+
 .nav-link {
   color: #FFF;
   text-decoration: none;
@@ -231,6 +239,19 @@ footer {
 .membership-section {
   font-family: SourceSansPro-Regular;
   background-color: #071629;
+  min-height: 502px;
+}
+
+.FAQ-card {
+  max-width: 255px !important;
+  font-family: SourceSansPro-Regular;
+  color: #071629;
+  font-size: 14px;
+}
+
+.member-card {
+  max-width: 257px !important;
+  
 }
 
 @media (min-width: 768px) {
