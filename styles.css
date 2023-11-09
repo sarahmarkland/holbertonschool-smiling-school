@@ -84,6 +84,18 @@ footer {
   margin: auto;
 }
 
+/* BOOTSTRAP CLASSES */
+.custom-card {
+  max-width: 255px !important;
+  max-height: 335px !important;
+}
+
+.card {
+  border: none;
+  max-width: 255px !important;
+  max-height: 335px !important;
+}
+
 /* CLASSES */
 
 .background-image {
@@ -152,16 +164,34 @@ footer {
   font-family: SourceSansPro-Light;
 }
 
+.card-body {
+  min-width: 255px;
+}
+
+.card-img-overlay {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+  }
+
 .purp-carousel {
   background-color: #C271FF;
 }
 
 .carousel-inner {
   max-width: 375px;
+  overflow: none !important;
 }
 
-.videos1 img {
-  border-radius: 50%;
+.vid-carousel-inner {
+  max-width: 800px;
+  justify-content: center;
+}
+
+.vid-carousel-active-width {
+  
 }
 
 .purple-quote {
@@ -170,6 +200,15 @@ footer {
 
 .purp-avatar img {
   /* width: 210px; */
+}
+
+.stars {
+  border-radius: none;
+}
+
+.membership-section {
+  font-family: SourceSansPro-Regular;
+  background-color: #071629;
 }
 
 @media (min-width: 768px) {
@@ -188,8 +227,12 @@ footer {
     flex-direction: row;
   }
 
-  .carousel-inner {
+  .purp-carousel-inner {
     display: flex;
     max-width: 850px;
+  }
+
+  .vid-carousel-inner {
+
   }
 }
